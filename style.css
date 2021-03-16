@@ -1,3 +1,8 @@
+body {
+	background-color:#eedc82;
+	font-size: 25px;
+	font-family: 'Inter';
+}
 
 #field td {
 	width: 50px;
@@ -5,4 +10,28 @@
 	border: 1px solid black;
 	text-align: center;
 	font-weight: bold;
+	background-color: #ffffff;
+	border-radius: 5px;
+	font-size: 15xp;
 }
+
+
+.tic-tac-toe {
+	height: 500px;
+	width: 500px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.button {
+	height: 40px;
+    width: 140px;
+	margin: 16px;
+}
+
+.table {
+	margin-top: 25%;
+}
+
